@@ -48,7 +48,6 @@ describe('containers', function () {
       expect(store.dispatch.callCount).to.equal(1);
     });
     it('should have a prop called videos connected to the videoList in the store', function () {
-      debugger;
       expect(component.prop('videos')).to.be.an('array');
       expect(component.prop('videos')).to.deep.equal([{ script: 'but only when they\'re green.' }]);
     });

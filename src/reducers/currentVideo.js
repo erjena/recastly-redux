@@ -8,7 +8,6 @@ var currentVideoReducer = (state = null, action) => {
     default:
       return state;
   }
-
 };
 
 export default currentVideoReducer;
