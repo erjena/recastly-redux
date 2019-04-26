@@ -14,7 +14,7 @@ var configureStore = (initialState) => {
 }
 
 var initialState = {
-  currentVideo: exampleVideoData[0],
+  currentVideo: null,
   videoList: exampleVideoData
 };
 
